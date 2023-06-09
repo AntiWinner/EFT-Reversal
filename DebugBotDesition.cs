@@ -1,0 +1,26 @@
+public enum DebugBotDesition
+{
+	go,
+	run,
+	shoot,
+	grenade,
+	gestus,
+	lay,
+	shootFromPlace,
+	flashed,
+	weaponChange,
+	rotate,
+	rotateLay,
+	rotateHead,
+	shuttleMove,
+	runToTarget,
+	runToCloseCover,
+	useStationary,
+	botTakeItem,
+	botDropItem,
+	botGetMelee,
+	oneMeleeAtack,
+	debugZigZagRunNode,
+	useStationaryInsta,
+	debugMeds
+}
