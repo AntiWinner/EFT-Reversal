@@ -1,0 +1,57 @@
+namespace EFT.HealthSystem;
+
+public enum EStimulatorBuffType
+{
+	[_E618("HealthRate")]
+	HealthRate,
+	[_E618("EnergyRate")]
+	EnergyRate,
+	[_E618("HydrationRate")]
+	HydrationRate,
+	[_E618("SkillRate")]
+	SkillRate,
+	[_E618("MaxStamina")]
+	MaxStamina,
+	[_E618("StaminaRate")]
+	StaminaRate,
+	[_E618("StomachBloodl")]
+	StomachBloodloss,
+	[_E618("ContusionBlur")]
+	ContusionBlur,
+	[_E618("ContusionWigg")]
+	ContusionWiggle,
+	[_E618("Pain")]
+	Pain,
+	[_E618("HandsTremor")]
+	HandsTremor,
+	[_E618("QuantumTunnel")]
+	QuantumTunnelling,
+	[_E618("RemoveNegativ")]
+	RemoveNegativeEffects,
+	[_E618("RemoveAllBuff")]
+	RemoveAllBuffs,
+	[_E618("RemoveAllBloo")]
+	RemoveAllBloodLosses,
+	[_E618("DamageModifie")]
+	DamageModifier,
+	[_E618("WeightLimit")]
+	WeightLimit,
+	[_E618("UnknownToxin")]
+	UnknownToxin,
+	[_E618("LethalToxin")]
+	LethalToxin,
+	[_E618("Antidote")]
+	Antidote,
+	[_E618("BodyTemperatu")]
+	BodyTemperature,
+	[_E618("LightBleeding")]
+	LightBleeding,
+	[_E618("HeavyBleeding")]
+	HeavyBleeding,
+	[_E618("Fracture")]
+	Fracture,
+	[_E618("Contusion")]
+	Contusion,
+	[_E618("HalloweenBuff")]
+	HalloweenBuff
+}
